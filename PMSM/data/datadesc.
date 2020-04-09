@@ -1,1 +1,30 @@
+# DATA DESCRIPTION:
+ Download link:https://www.kaggle.com/wkirgsn/electric-motor-temperature
+ 
 
+# ATTRIBUTE DESCRIPTION:
+•	ambient - Ambient temperature as measured by a thermal sensor located closely to the stator.
+
+•	Coolant - Coolant temperature. The motor is water cooled. Measurement is taken at outflow.
+
+•	u_d - Voltage d-component
+
+•	u_q - Voltage q-component
+
+•	motor_speed - Motor speed
+
+•	torque - Torque induced by current.
+
+•	i_d - Current d-component
+
+•	i_q - Current q-component
+
+•	pm - Permanent Magnet surface temperature representing the rotor temperature. This was measured with an infrared thermography unit.
+
+•	stator_yoke - Stator yoke temperature measured with a thermal sensor.
+
+•	stator_tooth - Stator tooth temperature measured with a thermal sensor.
+
+•	stator_winding - Stator winding temperature measured with a thermal sensor.
+
+•	profile_id - Each measurement session has a unique ID. Make sure not to try to estimate from one session onto the other as they are strongly independent.
