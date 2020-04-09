@@ -1,18 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
-
-
 import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 get_ipython().run_line_magic('matplotlib', 'inline')
-
-
-# In[2]:
-
 
 import os
 
