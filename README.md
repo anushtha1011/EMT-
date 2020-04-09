@@ -2,7 +2,7 @@
 ##  Objective-
  This project aims to estimate temperature sequences inside Permanent Magnet Synchronous Motors from given input sequences, that is, currents, voltages, coolant and ambient temperatures, and torque as well as motor speed. All sensor data is recorded on a testbench.
 
-***Dataset is anonymized and incomplete in order to meet confidentiality obligations.***
+
 
 ##  Dataset
 Download the dataset here: https://www.kaggle.com/wkirgsn/electric-motor-temperature
