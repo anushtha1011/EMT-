@@ -176,6 +176,63 @@ ordered_ids = _df.profile_id.values.tolist()
 sns.barplot(y='samples', x='profile_id', data=_df, order=ordered_ids)
 tcks = plt.yticks(2*3600*np.arange(1, 8), [f'{a} hrs' for a in range(1, 8)]) # 2Hz sample rate
 
+## 
+X_train=df['ambient'].values
+X_train=X_train[:998000]
+X_train=np.reshape(X_train, (998, 1000))
+X_train = TimeSeriesScalerMeanVariance().fit_transform(X_train)
+X_train = TimeSeriesResampler(sz=1000).fit_transform(X_train)
+sz = X_train.shape[1]
+
+# Euclidean k-means
+print("Euclidean k-means")
+km = TimeSeriesKMeans(n_clusters=36, verbose=True, random_state=seed)
+y_pred = km.fit_predict(X_train)
+
+#plt.figure()
+plt.figure(figsize=(50,25))
+for yi in range(36):
+
+    plt.subplot(6, 6, yi + 1)
+    
+    for xx in X_train[y_pred == yi]:
+        plt.plot(xx.ravel(), "k-", alpha=.2)
+    plt.plot(km.cluster_centers_[yi].ravel(), "r-")
+    plt.xlim(0, sz)
+    plt.ylim(-4, 4)
+    plt.text(0.55, 0.85,'Cluster %d' % (yi + 1),
+             transform=plt.gca().transAxes)
+    if yi == 1:
+        plt.title("Euclidean $k$-means")
+#####
+X_train=df['motor_speed'].values
+X_train=X_train[:998000]
+X_train=np.reshape(X_train, (998, 1000))
+X_train = TimeSeriesScalerMeanVariance().fit_transform(X_train)
+X_train = TimeSeriesResampler(sz=1000).fit_transform(X_train)
+sz = X_train.shape[1]
+
+# Euclidean k-means
+print("Euclidean k-means")
+km = TimeSeriesKMeans(n_clusters=36, verbose=True, random_state=seed)
+y_pred = km.fit_predict(X_train)
+
+#plt.figure()
+plt.figure(figsize=(50,25))
+for yi in range(36):
+
+    plt.subplot(6, 6, yi + 1)
+    
+    for xx in X_train[y_pred == yi]:
+        plt.plot(xx.ravel(), "k-", alpha=.2)
+    plt.plot(km.cluster_centers_[yi].ravel(), "r-")
+    plt.xlim(0, sz)
+    plt.ylim(-4, 4)
+    plt.text(0.55, 0.85,'Cluster %d' % (yi + 1),
+             transform=plt.gca().transAxes)
+    if yi == 1:
+        plt.title("Euclidean $k$-means")
+
 
 
 
