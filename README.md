@@ -12,6 +12,4 @@ Data used can be downloaded using the mentioned link in the *README file in DATA
 
 Data formating and operational algorithms are done in the path *PMSM/Code* 
 
-All the conclusive results will be made avavilble in *PMSM/output*.
-
 A summarised project report can be found in *PMSM/report.*
