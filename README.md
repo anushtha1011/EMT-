@@ -13,3 +13,4 @@ Data used can be downloaded using the mentioned link in the *README file in DATA
 Data formating and operational algorithms are done in the path *PMSM/Code* 
 
 A summarised project report can be found in *PMSM/report.*
+Also, a latex souce file is also attached for the final latex report on overleaf.
