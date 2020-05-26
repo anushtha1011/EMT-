@@ -1,10 +1,6 @@
 # DATASET LINK:
-		https://www.kaggle.com/wkirgsn/electric-motor-temperature
-
-# DATA DESCRIPTION:
  Download link:
 		https://www.kaggle.com/wkirgsn/electric-motor-temperature
- 
 
 # ATTRIBUTE DESCRIPTION:
 •	ambient - Ambient temperature as measured by a thermal sensor located closely to the stator.
@@ -31,12 +27,13 @@
 
 •	stator_winding - Stator winding temperature measured with a thermal sensor.
 
-•	profile_id - Each measurement session has a unique ID. Make sure not to try to estimate from one 	session onto the other as they are strongly independent.
+•	profile_id - Each measurement session has a unique ID. Make sure not to try to estimate from one session onto the other as they are strongly independent.
+
 
 # FILE NAMES:
-Here, we have three python files which are containing the code notebooks. These are:
+Here, we have three python files which contain the code notebooks. These are:
 1) EDA.py 
-	It is Exploratory Data Analysis which describes the visualization of the dataset.
+	It is Exploratory Data Analysis which describes the visualization of the dataset and initial analysis done.
 
 2) Regression.py
 	It describes the various Regression Algorithms which were performed on the dataset like Linear Regression, Principal Component regression and Polynomial Regression.
