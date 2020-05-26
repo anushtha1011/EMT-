@@ -1,10 +1,10 @@
-Dataset link:
-      https://www.kaggle.com/wkirgsn/electric-motor-temperature
+Dataset Path:
+To find the link to download the dataset follow the path in this repository:
+  data/description.txt
+
      
-As the dataset which we were used is very large so, 
-
-As we were plotting graphs in context to the above dataset, we were used the random variables or attributes for plotting the graphs in the
-Data Analysis, regression and Regularisation.
-
-We have divided the Regression into the train and test data.
-
+Since, this dataset comprises large set of observations, the completete dataset cannot be used to compute the analysis.
+So, 
+For the First part,i.e, Data Analysis, random data generation is used for plotting the graphs and making observations.
+For the second par,i.e, Regression Algorithms, again random data is used to make calculations.
+For the Third part, i.e, Regularisation, the given data is divided into test and training set for computation.
