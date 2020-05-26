@@ -15,7 +15,7 @@ os.getcwd()
 # In[5]:
 
 
-df = pd.read_csv('emt.csv')
+df = pd.read_csv('PMSM/data/pmsm_temperature_data.csv')
 df.head()
 
 
