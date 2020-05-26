@@ -8,9 +8,8 @@
 Download the dataset here: https://www.kaggle.com/wkirgsn/electric-motor-temperature
 
 ## Structure
-Data used can be downloaded using the mentioned link in the *README file in DATASET section* and dataset description can be found in *PMSM/data.*
-
-Data formating and operational algorithms are done in the path *PMSM/Code* 
-
-A summarised project report can be found in *PMSM/report.*
-Also, a latex souce file is also attached for the final latex report on overleaf.
+The project folder named PMSM contains three folders within. 
+'Data folder' containing dataset description, attributes of the dataset description, output images of graphs.
+'Code Folder' containing jupyter notebooks that contains code for all the work done in project in order.
+'Report' containing report file in pdf, source files for overleaf and link to the overleaf directory.
+'Help file' which is a map to create the project from scratch defining all the steps in detail.
