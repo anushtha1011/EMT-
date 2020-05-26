@@ -11,4 +11,7 @@ In the Project report that can be found from path: EMT/PMSM/Report :
    Section-3.1 on 'Data Metrics' is made from PMSM/code/1-preprocessing and analysis/1-preprocessing and analysis.py notebook.
    Section-3.2 on 'Visualisation' is made from PMSM/code/1-preprocessing and analysis/1-preprocessing and analysis.py notebook.
    
-4. Section-4 on 'Regression' is made from 
+5. In Section-5 on 'Regression' :
+   Section-5.1 on 'Implementation of Linear Regression' is made from PMSM/code/2-Regression/Regression.py.
+   Section-5 on 'Implementation of Principal Component Regression' is made from PMSM/code/2-Regression/Regression.py.
+   Section-5.1 on 'Implementation of Polynomial Regression' is made from PMSM/code/2-Regression/Regression.py.
