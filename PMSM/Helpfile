@@ -1,1 +1,7 @@
 #This is a help file that maps the entire project and this can be used to create the project from initial level.
+In the Project report that can be found from path: EMT/PMSM/Report :
+
+1. Section-1 contains a brief introduction of Project topic and description of Problem Statement.
+2. Section-2.1 on 'Data Description' is made from PMSM/code/1-preprocessing and analysis/1-preprocessing and analysis.py notebook.
+   Section-2.2 on 'Attribute Description' is made from PMSM/data/description.txt text file.
+3. Section-3 
