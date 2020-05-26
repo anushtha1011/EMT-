@@ -6,5 +6,5 @@ To find the link to download the dataset follow the path in this repository:
 Since, this dataset comprises large set of observations, the completete dataset cannot be used to compute the analysis.
 So, 
 For the First part,i.e, Data Analysis, random data generation is used for plotting the graphs and making observations.
-For the second par,i.e, Regression Algorithms, again random data is used to make calculations.
-For the Third part, i.e, Regularisation, the given data is divided into test and training set for computation.
+For the Second par,i.e, Regression Algorithms, again random data is used to make calculations.
+For the Third part, i.e,Regularisation,if to be implemented, dataset can be divided into test and training sets. 
