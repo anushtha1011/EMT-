@@ -32,11 +32,11 @@
 
 # FILE NAMES:
 Here, we have three python files which contain the code notebooks. These are:
-1) EDA.py 
+1) 1-Preprocessing and Analysis.py 
 	It is Exploratory Data Analysis which describes the visualization of the dataset and initial analysis done.
 
-2) Regression.py
+2) 2-Regression.py
 	It describes the various Regression Algorithms which were performed on the dataset like Linear Regression, Principal Component regression and Polynomial Regression.
 
-3) Regularization.py
+3) 3-Regularization.py
 	It defines the regularization in the regression algorithms.
