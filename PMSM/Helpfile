@@ -3,13 +3,13 @@ In the Project report that can be found from path: EMT/PMSM/Report :
 
 1. Section-1 contains a brief introduction of Project topic and description of Problem Statement.
 
-2. In Section-2 on 'Data Collection and Analysis' :
-   Section-2.1 on 'Data Description' is made from PMSM/code/1-preprocessing and analysis/1-preprocessing and analysis.py notebook.
-   Section-2.2 on 'Attribute Description' is made from PMSM/data/description.txt text file.
+2. In Section-3 on 'Data Collection and Analysis' :
+   Section-3.1 on 'Data Description' is made from PMSM/code/1-preprocessing and analysis/1-preprocessing and analysis.py notebook.
+   Section-3.2 on 'Attribute Description' is made from PMSM/data/description.txt text file.
    
-3. In Section-3 on 'Data Exploration' :
-   Section-3.1 on 'Data Metrics' is made from PMSM/code/1-preprocessing and analysis/1-preprocessing and analysis.py notebook.
-   Section-3.2 on 'Visualisation' is made from PMSM/code/1-preprocessing and analysis/1-preprocessing and analysis.py notebook.
+3. In Section-4 on 'Data Exploration' :
+   Section-4.1 on 'Data Metrics' is made from PMSM/code/1-preprocessing and analysis/1-preprocessing and analysis.py notebook.
+   Section-4.2 on 'Visualisation' is made from PMSM/code/1-preprocessing and analysis/1-preprocessing and analysis.py notebook.
    
 4. In Section-5 on 'Algorithms' :
    Section-5.1 on 'Implementation of Linear Regression' is made from PMSM/code/2-Regression/Regression.py notebook.
