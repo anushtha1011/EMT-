@@ -7,14 +7,16 @@ In the Project report that can be found from path: EMT/PMSM/Report :
    Section-3.1 on 'Data Description' is made from PMSM/code/1-preprocessing and analysis/1-preprocessing and analysis.py notebook.
    Section-3.2 on 'Attribute Description' is made from PMSM/data/description.txt text file.
    
-3. In Section-4 on 'Data Exploration' :
-   Section-4.1 on 'Data Metrics' is made from PMSM/code/1-preprocessing and analysis/1-preprocessing and analysis.py notebook.
-   Section-4.2 on 'Visualisation' is made from PMSM/code/1-preprocessing and analysis/1-preprocessing and analysis.py notebook.
+3. In Section-4 on 'Proposed Methodology' using a Work Flow Diagram.
    
-4. In Section-5 on 'Algorithms' :
-   Section-5.1 on 'Implementation of Linear Regression' is made from PMSM/code/2-Regression/Regression.py notebook.
-   Section-5 on 'Implementation of Principal Component Regression' is made from PMSM/code/2-Regression/Regression.py notebook.
-   Section-5.1 on 'Implementation of Polynomial Regression' is made from PMSM/code/2-Regression/Regression.py notebook.
+4. In Section-5 on 'Data Exploration' :
+   Section-5.1 on 'Data Metrics' is made from PMSM/code/1-preprocessing and analysis/1-preprocessing and analysis.py notebook.
+   Section-5.2 on 'Visualisation' is made from PMSM/code/1-preprocessing and analysis/1-preprocessing and analysis.py notebook.
    
-5. In Section-6 on 'Regularization' :
-   Section-6.1 on 'Regularization in Linear regression' is made from PMSM/code/3-Regularization/Regularization.py notebook.
+5. In Section-6 on 'Algorithms' :
+   Section-6.1 on 'Implementation of Linear Regression' is made from PMSM/code/2-Regression/Regression.py notebook.
+   Section-6.2 on 'Implementation of Principal Component Regression' is made from PMSM/code/2-Regression/Regression.py notebook.
+   Section-6.3 on 'Implementation of Polynomial Regression' is made from PMSM/code/2-Regression/Regression.py notebook.
+   
+6. In Section-7 on 'Regularization' :
+   Section-7.1 on 'Regularization in Linear regression' is made from PMSM/code/3-Regularization/Regularization.py notebook.
