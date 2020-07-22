@@ -8,7 +8,7 @@
 Download the dataset here: https://www.kaggle.com/wkirgsn/electric-motor-temperature
 
 ## Structure
-The project folder named PMSM contains three folders within. 
+The project folder named PMSM contains three paths within. 
 
 'Data folder' containing dataset description, attributes of the dataset description, output images of graphs.
 
