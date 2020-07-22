@@ -14,6 +14,4 @@ The project folder named PMSM contains three folders within.
 
 'Code Folder' containing jupyter notebooks that contains code for all the work done in project in order.
 
-'Report' containing report file in pdf, source files for overleaf and link to the overleaf directory.
-
 'Help file' which is a map to create the project from scratch defining all the steps in detail.
